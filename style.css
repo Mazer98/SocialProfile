@@ -1,0 +1,59 @@
+* {
+    margin:0;
+    padding: 0;
+}
+
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: inter;
+}
+
+
+@font-face {
+    font-family: 'inter';
+    src: url(Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    padding: 100px;
+    line-height: 50px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+
+
+}
+
+
+p {
+    color: hsl(75, 94%, 57%);
+}
+
+
+div {
+    color: hsl(0, 0%, 100%);
+}
+
+.content-container div {
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content-container div:hover {
+
+    background-color: red;
+    cursor: pointer;
+}
